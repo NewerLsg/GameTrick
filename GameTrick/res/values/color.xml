@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_bg">#fff0f0f0</color>
+    <color name="scheme_item_bg">#FFEFEEE9</color>
+    
+    <color name="red">#ffff0000</color>
+    <color name="black">#ff000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_25">#40ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="grey">#fff0f0f0</color>   
+    <color name="transparent">#00000000</color>   
+    <color name="lightblack">#ff202020</color>
+    <color name="green">#00FF00</color>
+    
+    <color name="cursor_select">@color/green</color>
+    <color name="cursor_unselect">@color/black</color>
+    
+    
+    
+    
+    
+
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+</resources>

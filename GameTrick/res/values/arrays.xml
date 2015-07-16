@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BaseCard">
+        <item name="sha">杀</item>
+        <item name="shan">闪</item>
+        <item name="tao">桃</item>
+        <item name="jiu">酒</item>
+    </string-array>
+    <string-array name="BaseCardAmout">
+        <item name="sha">44</item>
+        <item name="shan">24</item>
+        <item name="tao">12</item>
+        <item name="jiu">5</item>
+    </string-array>
+    
+     <string-array name="StratagemCard">
+        <item name="wuzhong">无中</item>
+        <item name="shunshou">顺手</item>
+        <item name="guochai">过拆</item>
+        <item name="juedou">决斗</item>
+        <item name="huogong">火攻</item>
+        <item name="jiedao">借刀</item>
+        <item name="tiesuo">铁索</item>
+        <item name="wuxie">无懈</item>
+         
+        <item name="taoyuan">桃园</item>
+        <item name="wugu">五谷</item> 
+        <item name="wanjian">万剑</item>
+        <item name="nanman">南蛮</item> 
+        
+        <item name="shenle">神乐</item>
+        <item name="bingliang">兵粮</item>
+        <item name="shandian">闪电</item>
+    </string-array>
+    
+    <string-array name="StratagemCardAmount">
+        <item name="wuzhong">4</item>
+        <item name="shunshou">5</item>
+        <item name="guochai">6</item>
+        <item name="juedou">3</item>
+        <item name="huogong">3</item>
+        <item name="jiedao">2</item>
+        <item name="tiesuo">6</item>
+        <item name="wuxie">7</item>
+         
+        <item name="taoyuan">1</item>
+        <item name="wugu">2</item> 
+        <item name="wanjian">1</item>
+        <item name="nanman">3</item> 
+        
+        <item name="shenle">3</item>
+        <item name="bingliang">2</item>
+        <item name="shandian">2</item>  
+    </string-array>
+    
+    <string-array name="EquipmentCard">
+        <item name="wuqi">武器</item>
+        <item name="wuqi">防具</item>
+        <item name="fsma">防守马</item>
+        <item name="jgma">进攻马</item>
+    </string-array>
+    
+    <string-array name="EquipmentCardAmount">
+        <item name="wuqi">12</item>
+        <item name="wuqi">6</item>
+        <item name="fsma">4</item>
+        <item name="jgma">3</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     style="@style/common_bg" 
+    android:orientation="vertical" >
+    
+    <LinearLayout style="@style/common_title" >
+        <TextView android:text="@string/scheme_custom_name"
+            style="@style/title_tv"/>
+    </LinearLayout>
+    
+    <TextView style="@style/scheme_custom_tv"
+        android:text="@string/base_card" />
+    
+    <GridView
+        android:id="@+id/basecardgv" 
+        style="@style/scheme_custom_gv">/
+    </GridView>
+       
+    <TextView style="@style/scheme_custom_tv"
+        android:text="@string/stratagem_card"/>
+    <GridView
+        android:id="@+id/stratagemcardgv"
+        style="@style/scheme_custom_gv" >    
+    </GridView>   
+    
+    <TextView style="@style/scheme_custom_tv"
+        android:text="@string/equipment_card"/>
+    <GridView  
+        android:id="@+id/equipmentcardgv"
+        style="@style/scheme_custom_gv" >       
+    </GridView>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        
+       <Button android:id="@+id/save_scheme"
+           android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save"/>
+        
+      <Button android:id="@+id/cancle_scheme"
+          android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+      		android:text="@string/cancel" />   
+      		
+    </LinearLayout>
+</LinearLayout>

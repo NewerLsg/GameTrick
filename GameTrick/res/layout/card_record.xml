@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/common_bg" 
+    android:orientation="vertical" >
+    
+	 <LinearLayout  android:layout_width="fill_parent"
+	      android:layout_height="45dp"
+	      android:orientation="vertical"> 
+	      
+    <LinearLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="5"
+      	android:background="#C0C0C0"
+        android:orientation="horizontal" >
+		
+		        <RelativeLayout
+		            android:id="@+id/basecard_rl"
+		            android:layout_width="0dp"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1" >
+		
+		            <TextView
+		                  android:id="@+id/basecard_tv"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:gravity="center"
+		                android:textColor="@color/cursor_text_color"
+		                android:text="@string/base_card" />
+		        </RelativeLayout>
+		
+		        <RelativeLayout
+		            android:id="@+id/stratagemcard_rl"
+		            android:layout_width="0dp"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1" >
+		
+		            <TextView
+		                android:id="@+id/stratagemcard_tv"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:gravity="center"
+		                android:textColor="@color/cursor_text_color"
+		                android:text="@string/stratagem_card" />
+		        </RelativeLayout>
+		
+		        <RelativeLayout
+		            android:id="@+id/equipmentcard_rl"
+		            android:layout_width="0dp"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1" >
+		
+		            <TextView
+		                android:id="@+id/equipmentcard_tv"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                    android:textColor="@color/cursor_text_color"
+		                android:gravity="center"
+		                android:text="@string/equipment_card" />
+		        </RelativeLayout>
+    	</LinearLayout>
+    	
+     <TextView android:id="@+id/cursor_text"
+         
+           android:layout_width="120dp"
+           android:layout_height="0dp" 
+        	android:layout_weight="1"
+           android:background="@color/green" />   
+            
+    </LinearLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/cardpage"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" >
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

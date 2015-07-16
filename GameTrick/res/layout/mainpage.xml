@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     style="@style/common_bg" 
+      android:orientation="vertical" >
+
+	<FrameLayout
+       style="@style/common_title"
+       android:orientation="horizontal" >"
+      <TextView android:text="@string/main_title_name" 
+   			  style="@style/title_tv"/>
+        
+       <TextView 
+           android:id="@+id/customscheme"
+           	android:layout_height="fill_parent"
+           	android:layout_width="wrap_content"    
+           	android:layout_gravity="right"
+            android:gravity="center"
+           	android:layout_marginRight="20dp"
+            android:text="@string/custom_scheme"/>
+    </FrameLayout>
+    
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" android:layout_marginTop="10dp"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal">
+	    
+	   	 <TextView android:layout_width="0dp" 
+	        android:layout_weight="1" 
+	 		android:layout_height="fill_parent" 
+	        android:visibility="invisible"/>
+	      
+		<ListView android:id="@+id/scheme_lv"
+		    android:background="@null"
+		    android:dividerHeight="0px"
+		    android:layout_width="0dp"
+		    android:layout_weight="8" 
+	   		android:layout_height="fill_parent" >  
+		</ListView>		
+	  
+	   	 <TextView android:layout_width="0dp" 
+	        android:layout_weight="1" 
+	        android:layout_height="fill_parent" 
+	        android:visibility="invisible"/>       
+	</LinearLayout>
+	 
+
+</LinearLayout>
